@@ -1,0 +1,475 @@
+{
+  "intents": [
+    {
+      "intent": "order",
+      "examples": [
+        {
+          "text": "I want to order a book"
+        },
+        {
+          "text": "I want to order a tool"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "address",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "street",
+          "patterns": [
+            "^(\\d+)\\s+(.*)\\s+(St|Blvd|Ave|Rd)$"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "zip",
+          "patterns": [
+            "\\d{5}-\\d{4}|\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "state",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "CA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "FL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "IL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ME",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MI",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "WA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes_No",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "incorrect",
+            "nope",
+            "wrong"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "correct",
+            "sure",
+            "yep"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_4_1621880392104",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1621880408839",
+      "context": {
+        "address_street": "@address.literal"
+      },
+      "conditions": "@address:street",
+      "event_name": "input",
+      "dialog_node": "handler_2_1621880408847"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your street address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1621880408839",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1621880408847",
+      "previous_sibling": "handler_2_1621880408847"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1621880437667",
+      "context": {
+        "address_zip": "@address:zip"
+      },
+      "conditions": "@address:zip",
+      "event_name": "input",
+      "dialog_node": "handler_6_1621880437667"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your zip code?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1621880437667",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1621880437667",
+      "previous_sibling": "handler_6_1621880437667"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1621880408839",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1621880686915",
+      "previous_sibling": "handler_4_1621880408847"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Opps - let's start over"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1621880468302",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1621880392104"
+      },
+      "conditions": "@Yes_No:No",
+      "dialog_node": "node_10_1625022021290",
+      "previous_sibling": "node_7_1625021934221"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What city do you live in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1621880392104",
+      "context": {
+        "street_address": "@address.literal"
+      },
+      "conditions": "@address:street",
+      "dialog_node": "node_1_1622118681921"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your zip code?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1622118715653",
+      "context": {
+        "state_address": "@state"
+      },
+      "conditions": "@state",
+      "dialog_node": "node_2_1622118822456"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your street address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#order",
+      "dialog_node": "node_4_1621880392104",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your address is:"
+              },
+              {
+                "text": "$street_address"
+              },
+              {
+                "text": "$city_address"
+              },
+              {
+                "text": "$state_address"
+              },
+              {
+                "text": "$zip_address"
+              },
+              {
+                "text": "Is this correct?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1622118822456",
+      "context": {
+        "zip_address": "@address.literal"
+      },
+      "conditions": "@address:zip",
+      "dialog_node": "node_4_1621880468302"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What state do you live in?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1622118681921",
+      "context": {
+        "city_address": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1622118715653"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! Your order is on its way."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1621880468302",
+      "conditions": "@Yes_No:Yes",
+      "dialog_node": "node_7_1625021934221"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's try your 5 digit zip again!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1622118822456",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1622118822456"
+      },
+      "conditions": "@address != \"zip\"",
+      "dialog_node": "node_8_1625022149294",
+      "previous_sibling": "node_4_1621880468302"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1621880392104",
+      "variable": "$address_zip",
+      "dialog_node": "slot_10_1621880437667",
+      "previous_sibling": "slot_9_1621880408839"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1621880392104",
+      "variable": "$address_street",
+      "dialog_node": "slot_9_1621880408839",
+      "previous_sibling": "node_1_1622118681921"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "basic_address_detection",
+  "language": "en",
+  "description": ""
+}

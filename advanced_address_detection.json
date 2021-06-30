@@ -1,0 +1,7325 @@
+{
+  "intents": [
+    {
+      "intent": "enter_address",
+      "examples": [
+        {
+          "text": "01111",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "01345",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "02134",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "02199",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1000 State Route 36, Hornell NY 14843",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1001A Quincy Ave",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10040 County Road 48, Fairhope AL 36533",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1007 Red Farmer Drive, Hueytown AL 35023",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100 Charlton Road, Sturbridge MA 15466",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                33,
+                38
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                32
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100 Elm Ridge Center Dr, Greece NY 14626",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                25,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "100 Thruway Plaza, Cheektowaga NY 14225",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1011 US Hwy 72 East, Athens AL 35611",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                31,
+                36
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                28,
+                30
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "101 Sanford Farm Shpg Center, Amsterdam NY 12010",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                43,
+                48
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                28
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                40,
+                42
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                30,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "101 South Beltline Highway, Mobile AL 36606",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                26
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                35,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                28,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "103 North Caroline St, Herkimer NY 13350",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10401 Bennett Road, Fredonia NY 14063",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10675 Hwy 5, Brent AL 35034",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                22,
+                27
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                11
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                19,
+                21
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "10710 Chantilly Pkwy, Montgomery AL 36117",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                36,
+                41
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                33,
+                35
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1095 Industrial Pkwy, Saraland AL 36571",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1100 New Haven Road, Naugatuck CT 09770",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1105 Boston Road, Springfield Massachusetts 10119",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                44,
+                49
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                43
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "11610 Memorial Pkwy South, Huntsville AL 35803",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                41,
+                46
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                25
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                38,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "11697 US Hwy 431, Guntersville AL 35976",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1180 Fall River Avenue, Seekonk MA 20771",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                22
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "11 Jungle Road, Leominster MA 14153",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1201 Hwy 31 NW, Hartselle AL 35640",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1201 Rt 300, Newburgh NY 12550",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                25,
+                30
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                11
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                22,
+                24
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                13,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "120 Commercial Parkway, Branford CT 64005",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                36,
+                41
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                22
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                33,
+                35
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "121 Worcester Rd, Framingham Massachusetts 17001",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                43,
+                48
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                42
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1300 Gilmer Ave, Tallassee AL 36078",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1300 Montgomery Highway, Vestavia Hills AL 35216",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                43,
+                48
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                40,
+                42
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                25,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "13190",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "135 Fairgrounds Memorial Pkwy, Ithaca NY 14850",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                41,
+                46
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                29
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                38,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                31,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1365 Boston Post Road, Milford CT 60460",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "13675 Hwy 43, Russellville AL 35653",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "137 Teaticket Hwy, East Falmouth MA 20536",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                36,
+                41
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                33,
+                35
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "13858 Rt 31 W, Albion NY 14411",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                25,
+                30
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                13
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                22,
+                24
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                15,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "139 Merchant Place, Cobleskill New York 12043",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                40,
+                45
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                39
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1400 County Rd 64, Horseheads New York 14845",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                39,
+                44
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1400 farmington ave bristol ct 60010",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                31,
+                36
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                28,
+                30
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "140 Charlton Rd",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "14123 washington ave extension albany new york 12205",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                47,
+                52
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                30
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                38,
+                46
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                31,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "14154 7Th Street South Clanton AL 35045",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1420 Us 231 South Troy AL 36081",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                26,
+                31
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                11
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                23,
+                25
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                12,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "14509 no brindlee mtn pkwy arab 35016",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                26
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "145 kelley blvd millbrook al 36054",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "14700 s washington st, north attleboro massachusetts 20760",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                53,
+                58
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                39,
+                52
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                38
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1501 Hwy 14 East",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1501 Skyland Blvd E",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "150 barnum avenue cutoff, stratford ct 66014",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                39,
+                44
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                24
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                36,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                26,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "150 Gold Star Hwy Groton",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "150 Springville Station Blvd",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15215 Waterford Parkway no waterford ct 68385",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                40,
+                45
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                37,
+                39
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "15445 highway 24 moulton al",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                27
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1600 montclair RD birminghaM al 35210",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "16038 W Magnolia Ave, AL 36340",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                25,
+                30
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                22,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "16077 Highway 280",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "161A berlin road cromwell ct 64160",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                17,
+                25
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "161 Centereach Mall, Centereach NY 11720",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "16205 pelham south jacksonville",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                13,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "16409 Danbury Rd New Milford ct 06776",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "165 Vaughan lane pell city al 35125",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1706 Military Street South, Hamilton AL 35570",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                40,
+                45
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                26
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                37,
+                39
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                28,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "170 Fort Morgan Road, Gulf Shores AL 36542",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                37,
+                42
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                34,
+                36
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1717 South College Street, Auburn AL 36830",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                37,
+                42
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                25
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                34,
+                36
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1775 Washington St, Hanover MA 28339",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                31,
+                36
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                28,
+                30
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1801 Hwy 78 East, Jasper AL 35501",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                28,
+                33
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                27
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "180 North King Street, Northhampton MA 10608",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                39,
+                44
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                36,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "180 River Rd, Lisbon CT 63851",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                24,
+                29
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                21,
+                23
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1818 State Route 3, Fulton NY 13069",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1903 Cobbs Ford Rd, Prattville AL 36066",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1916 Center Point Rd, Center Point AL 35215",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                35,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1950 W Main St, Centre AL 35960",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                26,
+                31
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                23,
+                25
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1970 S University Blvd, Mobile Alabama 36609",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                39,
+                44
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                22
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1972 Hwy 431, Boaz AL 35957",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                22,
+                27
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                19,
+                21
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "1 Neponset Ave",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2001 Glenn Bldv Sw, Fort Payne AL 35968",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "200 Dutch Meadows Ln, Glenville NY 12302",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "200 Otis Street, Northborough MA 18532",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                33,
+                38
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                32
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "200 Sunrise Mall, Massapequa NY 11758",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2041 Douglas Avenue, Brewton AL 36426",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2055 niagara falls blvd amherst New York 14228",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                41,
+                46
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "209 lakeshore parkway homewood al 35209",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "20 Soojian Dr, Leicester MA 15248",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                28,
+                33
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                13
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                27
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                15,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "21409 Haynes Street Talladega, AL 35160",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "21537 hwy 231 south ozark al 36360",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                13
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2181 Pelham Pkwy, Pelham, Alabama 35124",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2200 South Mckenzie St, Foley Alabama 36535.",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                22
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2200 Sparkman Drive, Huntsville AL. 35810",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                36,
+                41
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "220 Salem Turnpike, Norwich, Connecticut. 61360",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                42,
+                47
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2300 Dixwell Ave, Hamden CT. 65140",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                27
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2310 Westford Ave",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "233 5th Ave Ext, Johnstown NY. 12095",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                31,
+                36
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "234 Morrisey Blvd",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "235 Queen St, Southington ct. 60489",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2400 Route 9, Fishkill NY 12524",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                26,
+                31
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                23,
+                25
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "24503 2Nd avenue east, oneonta al 35121 205-625-647",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "24650 hempstead Turnpike East meadow",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                24
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                25,
+                36
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2473 Hackworth Road, Adamsville",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "24833 Johnt Reidprkw, Scottsboro",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                20
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                22,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2500 Dawes Road",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "250 Hartford Avenue, Bellingham MA 20119",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "250 Rt 59, Airmont NY 10901",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                22,
+                27
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                9
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                19,
+                21
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                11,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "text": "255 W Main St",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "25737 US Rt 11",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2575 Us Hwy 43",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "262 Swansea Mall Dr",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2643 Hwy 280 West",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "27520 Hwy 98, Daphne AL 36526",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                24,
+                29
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                21,
+                23
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "2 Gannett Dr, Johnson City NY 13790",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                30,
+                35
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                27,
+                29
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "333 Avenue of the Americas Miami Florida 49113",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                41,
+                46
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                26
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                33,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "34 Grand Canal Dr, Hartford Connecticut 13441",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                40,
+                45
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                28,
+                39
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "432 Washington St",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "43 Beaver bank rd. fairbanks Alaska 21113",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                36,
+                41
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                35
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "601 Frank Stottile Blvd, Kingston NY 12401",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                37,
+                42
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                34,
+                36
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                25,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6140A Univ Drive, Huntsville AL 35806",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "625 School Street, Putnam CT 61260",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6265 Brockport Spencerport Rd, Brockport NY 14420",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                44,
+                49
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                29
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                41,
+                43
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                31,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "text": "626 Olive Street Sw, Cullman AL 35055",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                19
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                21,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "630 Coonial Promenade Pkwy, Alabaster AL 35007",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                41,
+                46
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                0,
+                26
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                38,
+                40
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                28,
+                37
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6350 Cottage Hill Road, Mobile AL 36609",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                22
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                24,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6438 Basile Rowe, East Syracuse NY 13057",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                35,
+                40
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                32,
+                34
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "6495 Atlanta Hwy, Montgomery AL 36117",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                16
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                18,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "650 Main Ave, Norwalk CT 68251",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                25,
+                30
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                12
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                22,
+                24
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                14,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "655 Boston Post Rd, Old Saybrook Connecticut 64075",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                45,
+                50
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                33,
+                44
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                20,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "656 New Haven Ave, Derby Connecticut 64018",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                37,
+                42
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                36
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "66-4 Parkhurst Rd, Chelmsford MA 18024",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                33,
+                38
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                17
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                30,
+                32
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "685 Schillinger Rd Mobile AL 36695",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                29,
+                34
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                18
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                26,
+                28
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                19,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "690 Hwy 78, Sumiton AL 35148",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                23,
+                28
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                10
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                20,
+                22
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                12,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "69 Prospect Hill Road, East Windsor CT 60880",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                39,
+                44
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                36,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "700 Oak Street, Brockton MA 2301",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                28,
+                32
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                25,
+                27
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "701 Mcmeans Ave, Bay Minette AL 36507",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                32,
+                37
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                15
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                29,
+                31
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                17,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "70 Pleasant Valley Street, Methuen MA 18044",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                25
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                35,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "7100 Aaron Aronov Drive, Fairfield AL 35064",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                23
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                35,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                25,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "78120",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "90110",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                0,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "text": "973 Gilbert Ferry Road Se, Attalla AL 35954",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                38,
+                43
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                25
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                35,
+                37
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                27,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "990 Route 5 20, Geneva NY 14456",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                26,
+                31
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                14
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                23,
+                25
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                16,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "can you bill it to my home which is 1232 queen blvd southie ma",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                36,
+                51
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                60,
+                62
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                52,
+                59
+              ]
+            }
+          ]
+        },
+        {
+          "text": "dallas",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hartford",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 22113 Squantum St in west quincy ma 02112",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                46,
+                51
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                10,
+                27
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                43,
+                45
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                31,
+                42
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 22 Kings Rd, Duxbury ct 02111",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                34,
+                39
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                10,
+                21
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                31,
+                33
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                23,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live at 240 meadow brook drive dedham ma",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                10,
+                32
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                40,
+                42
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                33,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want it billed to 22 Main St Westwood ma",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                20,
+                30
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                40,
+                42
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                31,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I want to send it to 1 Lincoln drive springfield il 02112",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                52,
+                57
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                21,
+                36
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                49,
+                51
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                37,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kenmare",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Killarney",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Medfield",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My address is 231 West Squantum St, Milford, MA 01221",
+          "mentions": [
+            {
+              "entity": "zip_annotation",
+              "location": [
+                48,
+                53
+              ]
+            },
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                14,
+                34
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                45,
+                47
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                36,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my mailing address is 23234 Telegraph rd, Denver Colorado",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                22,
+                40
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                49,
+                57
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                42,
+                48
+              ]
+            }
+          ]
+        },
+        {
+          "text": "New Haven",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "newport",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "orlando",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "please bill it to 22119 neponset ave bronxville vt",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                18,
+                36
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                48,
+                50
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                37,
+                47
+              ]
+            }
+          ]
+        },
+        {
+          "text": "please send it to 2222 Some ave cleveland oh",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                18,
+                31
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                42,
+                44
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                32,
+                41
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rt 9 halfmoon ny",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                0,
+                4
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                14,
+                16
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                5,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "send it to 22 brush hill rd, milton ma",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                11,
+                27
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                36,
+                38
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                29,
+                35
+              ]
+            }
+          ]
+        },
+        {
+          "text": "send it to 44 bruster ave medford",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                11,
+                25
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                26,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "springfield",
+          "mentions": [
+            {
+              "entity": "city_annotation",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "you can find me at 442 Beacon st New orleans Louisiana",
+          "mentions": [
+            {
+              "entity": "street_address_annotation",
+              "location": [
+                19,
+                32
+              ]
+            },
+            {
+              "entity": "state_annotation",
+              "location": [
+                45,
+                54
+              ]
+            },
+            {
+              "entity": "city_annotation",
+              "location": [
+                33,
+                44
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "intent": "order",
+      "examples": [
+        {
+          "text": "I need to get a chair"
+        },
+        {
+          "text": "I need to order a drill"
+        },
+        {
+          "text": "I want to order a book"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "city_annotation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Adamsville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Airmont",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alabaster",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "albany",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Albion",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "amherst",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Amsterdam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "arab",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Athens",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Attalla",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Auburn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bay Minette",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bellingham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "birminghaM",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boaz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Branford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brewton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bristol",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brockport",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Brockton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bronxville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Center",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Centereach",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Center Point",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Centre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cheektowaga",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chelmsford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cleveland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cobleskill",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cullman",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dallas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Daphne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "dedham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Denver",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Derby",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Duxbury",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "East Falmouth",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "East meadow",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "East Syracuse",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "East Windsor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "fairbanks",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fairfield",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fairhope",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fishkill",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Foley",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fort Payne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Framingham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fredonia",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Fulton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Geneva",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Glenville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Greece",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Groton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gulf Shores",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Guntersville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "halfmoon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamden",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hamilton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hanover",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hartford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hartselle",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Herkimer",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "homewood",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hornell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Horseheads",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hueytown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Huntsville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ithaca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jasper",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Johnson City",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Johnstown",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kenmare",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Killarney",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kingston",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leicester",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Leominster",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lisbon",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Massapequa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Medfield",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "medford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Methuen",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Miami",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "millbrook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "milton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mobile",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Montgomery",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "moulton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Naugatuck",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Newburgh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New Haven",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New Milford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "New orleans",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "newport",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "north attleboro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Northborough",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Northhampton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Norwalk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Norwich",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no waterford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Old Saybrook",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "oneonta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "orlando",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Pelham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pell city",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "please",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Prattville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Putnam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Russellville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Saraland",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Scottsboro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Seekonk",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "South Clanton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "southie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Southington",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "south jacksonville",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "south ozark",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "South Troy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "springfield",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stratford",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sturbridge",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sumiton",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Talladega",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tallassee",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Vestavia Hills",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "west quincy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Westwood",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "state_annotation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "630 Coonial Promenade Pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alaska",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Colorado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Connecticut",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CT",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Derby",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Florida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "il",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Louisiana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "MA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NY",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "oh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vt",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "states_dict",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AK",
+          "synonyms": [
+            "Alaska"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AL",
+          "synonyms": [
+            "Alabama"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AR",
+          "synonyms": [
+            "Arkansas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AS",
+          "synonyms": [
+            "American Samoa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AZ",
+          "synonyms": [
+            "Arizona"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CA",
+          "synonyms": [
+            "California"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CO",
+          "synonyms": [
+            "Colorado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CT",
+          "synonyms": [
+            "Connecticut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DC",
+          "synonyms": [
+            "District Of Columbia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DE",
+          "synonyms": [
+            "Delaware"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FL",
+          "synonyms": [
+            "Florida"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FM",
+          "synonyms": [
+            "Federated States Of Micronesia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GA",
+          "synonyms": [
+            "Georgia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GU",
+          "synonyms": [
+            "Guam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HI",
+          "synonyms": [
+            "Hawaii"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IA",
+          "synonyms": [
+            "Iowa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ID",
+          "synonyms": [
+            "Idaho"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IL",
+          "synonyms": [
+            "Illinois"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IN",
+          "synonyms": [
+            "Indiana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KS",
+          "synonyms": [
+            "Kansas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KY",
+          "synonyms": [
+            "Kentucky"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LA",
+          "synonyms": [
+            "Louisiana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MA",
+          "synonyms": [
+            "Massachusetts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MD",
+          "synonyms": [
+            "Maryland"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ME",
+          "synonyms": [
+            "Maine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MH",
+          "synonyms": [
+            "Marshall Islands"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MI",
+          "synonyms": [
+            "Michigan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MN",
+          "synonyms": [
+            "Minnesota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MO",
+          "synonyms": [
+            "Missouri"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MP",
+          "synonyms": [
+            "Northern Mariana Islands"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MS",
+          "synonyms": [
+            "Mississippi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MT",
+          "synonyms": [
+            "Montana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NC",
+          "synonyms": [
+            "North Carolina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ND",
+          "synonyms": [
+            "North Dakota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NE",
+          "synonyms": [
+            "Nebraska"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NH",
+          "synonyms": [
+            "New Hampshire"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NJ",
+          "synonyms": [
+            "New Jersey"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NM",
+          "synonyms": [
+            "New Mexico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NV",
+          "synonyms": [
+            "Nevada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NY",
+          "synonyms": [
+            "New York"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OH",
+          "synonyms": [
+            "Ohio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OK",
+          "synonyms": [
+            "Oklahoma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OR",
+          "synonyms": [
+            "Oregon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PA",
+          "synonyms": [
+            "Pennsylvania"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PR",
+          "synonyms": [
+            "Puerto Rico"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PW",
+          "synonyms": [
+            "Palau"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RI",
+          "synonyms": [
+            "Rhode Island"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SC",
+          "synonyms": [
+            "South Carolina"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SD",
+          "synonyms": [
+            "South Dakota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TN",
+          "synonyms": [
+            "Tennessee"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TX",
+          "synonyms": [
+            "Texas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UT",
+          "synonyms": [
+            "Utah"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VA",
+          "synonyms": [
+            "Virginia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VI",
+          "synonyms": [
+            "Virgin Islands"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VT",
+          "synonyms": [
+            "Vermont"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WA",
+          "synonyms": [
+            "Washington"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WI",
+          "synonyms": [
+            "Wisconsin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WV",
+          "synonyms": [
+            "West Virginia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WY",
+          "synonyms": [
+            "Wyoming"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "street_address_annotation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1000 State Route 36",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1001A Quincy Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10040 County Road 48",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1007 Red Farmer Drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "100 Charlton Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "100 Elm Ridge Center Dr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "100 Thruway Plaza",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1011 US Hwy 72 East",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "101 Sanford Farm Shpg Center",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "101 South Beltline Highway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "103 North Caroline St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10401 Bennett Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10675 Hwy 5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10710 Chantilly Pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1095 Industrial Pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1100 New Haven Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1105 Boston Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11610 Memorial Pkwy South",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11697 US Hwy 431",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1180 Fall River Avenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11 Jungle Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1201 Hwy 31 NW",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1201 Rt 300",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "120 Commercial Parkway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "121 Worcester Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1232 queen blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1300 Gilmer Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1300 Montgomery Highway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "135 Fairgrounds Memorial Pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1365 Boston Post Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13675 Hwy 43",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "137 Teaticket Hwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13858 Rt 31 W",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "139 Merchant Place",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1400",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1400 County Rd 64",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1400 farmington ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "140 Charlton Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14123 washington ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14123 washington ave extension",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14154 7Th Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1420 Us 231",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14509 no brindlee mtn pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "145 kelley blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14700 s washington st",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1501 Hwy 14 East",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1501 Skyland Blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "150 barnum avenue cutoff",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "150 Gold Star Hwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "150 Springville Station Blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "15215 Waterford Parkway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "15445 highway 24",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1600 montclair RD",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "16038 W Magnolia Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "16077 Highway 280",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "161A berlin road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "161 Centereach Mall",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "16205 pelham",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "16409 Danbury Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "165 Vaughan lane",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1706 Military Street South",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "170 Fort Morgan Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1717 South College Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1775 Washington St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1801 Hwy 78 East",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "180 North King Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "180 River Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1818 State Route 3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1903 Cobbs Ford Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1916 Center Point Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1950 W Main St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1970 S University Blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1972 Hwy 431",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1 Lincoln drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1 Neponset Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2001 Glenn Bldv Sw",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "200 Dutch Meadows Ln",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "200 Otis Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "200 Sunrise Mall",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2041 Douglas Avenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2055 niagara falls blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "209 lakeshore parkway",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "20 Soojian Dr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "21409 Haynes Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "21537 hwy 231",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2181 Pelham Pkwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2200 South Mckenzie St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2200 Sparkman Drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "220 Salem Turnpike",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22113 Squantum St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22119 neponset ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2222 Some ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22 brush hill rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22 Kings Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "22 Main St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2300 Dixwell Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2310 Westford Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "231 West Squantum St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "23234 Telegraph rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "233 5th Ave Ext",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "234 Morrisey Blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "235 Queen St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2400 Route 9",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "240 meadow brook drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24503 2Nd avenue east",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24650 hempstead Turnpike",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2473 Hackworth Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "24833 Johnt Reidprkw",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2500 Dawes Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "250 Hartford Avenue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "250 Rt 59",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "255 W Main St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "25737 US Rt 11",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2575 Us Hwy 43",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "262 Swansea Mall Dr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2643 Hwy 280 West",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "27520 Hwy 98",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2 Gannett Dr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "333 Avenue of the Americas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "34 Grand Canal Dr",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35960",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "432 Washington St",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "43 Beaver bank rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "442 Beacon st",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "44 bruster ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "601 Frank Stottile Blvd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6140A Univ Drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "625 School Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6265 Brockport Spencerport Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "626 Olive Street Sw",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6350 Cottage Hill Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6438 Basile Rowe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6495 Atlanta Hwy",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "650 Main Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "655 Boston Post Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "656 New Haven Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "66-4 Parkhurst Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "685 Schillinger Rd",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "690 Hwy 78",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "69 Prospect Hill Road",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "700 Oak Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "701 Mcmeans Ave",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "70 Pleasant Valley Street",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7100 Aaron Aronov Drive",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "973 Gilbert Ferry Road Se",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "990 Route 5 20",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AL",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cromwell",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rt 9",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "zip_annotation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "01111",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "01221",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "01345",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "02111",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "02112",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "02134",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "02199",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "06776",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1060",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "10901",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1119",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11720",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "11758",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12043",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12095",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12205",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12302",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12401",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12524",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "12550",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13057",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13069",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13190",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13350",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13441",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "13790",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14063",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14225",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14228",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14411",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14420",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14456",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1453",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14626",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14843",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14845",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "14850",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1524",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1532",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1566",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1701",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1824",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "1844",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "20119",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "21113",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2301",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2339",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2536",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2760",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2771",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35007",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35016",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35023",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35034",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35045",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35055",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35064",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35121",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35124",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35125",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35148",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35160",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35209",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35210",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35215",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35216",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35501",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35570",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35611",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35640",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35653",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35803",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35806",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35810",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35954",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35957",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35960",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35968",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "35976",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36054",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36066",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36078",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36081",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36117",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36340",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36360",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36426",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36507",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36526",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36533",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36535",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36542",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36571",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36606",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36609",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36695",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "36830",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "49113",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "60489",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6088",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6260",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6351",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6360",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6385",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6405",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "64160",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6418",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6460",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6475",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "65140",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6614",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6770",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6851",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "78120",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "90110",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NY",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "zip_regex",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "zip",
+          "patterns": [
+            "(\\d{5}$)|(^\\d{9}$)|(^\\d{5}-\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1622121370116",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "slot_8_1602906310294",
+      "context": {
+        "zip_regex": "@zip_regex.literal"
+      },
+      "conditions": "@zip_regex && !@zip_annotation && ($street_address_annotation || @street_address_annotation)",
+      "event_name": "nomatch",
+      "dialog_node": "handler_10_1625052108330",
+      "previous_sibling": "handler_1_1602906310307"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your home city"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your home city"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1602905365772",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1602905365784",
+      "previous_sibling": "handler_3_1602905365784"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your zip code"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1602906310294",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1602906310307",
+      "previous_sibling": "handler_5_1602906310307"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your street address"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your street address"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1602905321028",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1602905321057",
+      "previous_sibling": "handler_7_1602905321057"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1602905365772",
+      "context": {
+        "city_annotation": "@city_annotation"
+      },
+      "conditions": "@city_annotation",
+      "event_name": "input",
+      "dialog_node": "handler_3_1602905365784"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1602906262631",
+      "context": {
+        "state_to_save": "@state_annotation.literal"
+      },
+      "conditions": "@state_annotation && @states_dict",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1602907395261",
+      "previous_sibling": "handler_9_1602906262647"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1602906310294",
+      "context": {
+        "zip_regex": "@zip_annotation"
+      },
+      "conditions": "@zip_annotation",
+      "event_name": "input",
+      "dialog_node": "handler_5_1602906310307"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1602905321028",
+      "context": {
+        "street_address_annotation": "@street_address_annotation"
+      },
+      "conditions": "@street_address_annotation",
+      "event_name": "input",
+      "dialog_node": "handler_7_1602905321057"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1602906262631",
+      "context": {
+        "state_annotation": "@state_annotation AND @states_dict"
+      },
+      "conditions": "@state_annotation AND @states_dict",
+      "event_name": "input",
+      "dialog_node": "handler_7_1602906262647"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your state"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your state"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1602906262631",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1602906262647",
+      "previous_sibling": "handler_7_1602906262647"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your address?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#order",
+      "dialog_node": "node_10_1622121370116",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, Great. I will send it to:"
+              },
+              {
+                "text": "$street_address_annotation"
+              },
+              {
+                "text": "$city_annotation"
+              },
+              {
+                "text": "$state_to_save"
+              },
+              {
+                "text": "$zip_regex"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1622121370116",
+      "conditions": "true",
+      "dialog_node": "node_3_1602905292020"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1602905292020",
+      "variable": "$street_address_annotation",
+      "dialog_node": "slot_10_1602905321028"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1602905292020",
+      "variable": "$state_annotation",
+      "dialog_node": "slot_10_1602906262631",
+      "previous_sibling": "slot_1_1602905365772"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1602905292020",
+      "variable": "$city_annotation",
+      "dialog_node": "slot_1_1602905365772",
+      "previous_sibling": "slot_10_1602905321028"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1602905292020",
+      "variable": "$zip_regex",
+      "dialog_node": "slot_8_1602906310294",
+      "previous_sibling": "slot_10_1602906262631"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Advanced address detection",
+  "language": "en",
+  "description": ""
+}
